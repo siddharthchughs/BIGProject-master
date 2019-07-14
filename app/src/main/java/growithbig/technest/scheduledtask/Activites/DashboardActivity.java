@@ -10,6 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import growithbig.technest.scheduledtask.HomeScreen.HomeFragment;
+import growithbig.technest.scheduledtask.HomeScreen.MyProfileFragment;
 import growithbig.technest.scheduledtask.HomeScreen.TransactionFragment;
 import growithbig.technest.scheduledtask.R;
 
@@ -49,6 +50,8 @@ public class DashboardActivity extends AppCompatActivity {
                     break;
                 case R.id.navigation_notifications:
              //       mTextMessage.setText(R.string.title_notifications);
+                    fragment = new MyProfileFragment();
+
                     break;
             }
             return loadFragment(fragment);
