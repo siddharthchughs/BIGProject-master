@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">ScheduledTask</string>
+
+
+    <!--Login labels-->
+
+    <string name="tec_login_phonenumber">Phone No</string>
+    <string name="tec_login_passord">Password</string>
+    <string name="tec_login_forgot_password">Forgot Password</string>
+
+    <!--Ends here-->
+
+
+    <!--The dashboard labels-->
+    <string name="tec_dashboard">Dashboard</string>
+    <string name="tec_settings">Setting</string>
+    <string name="tec_scheduledtask">Scheduled Task</string>
+    <string name="tec_payment_history">Payment History</string>
+    <string name="tec_myprofile">My Profile</string>
+    <!--ends here-->
+
+    <!--The detail Page labels-->
+
+    <string name="tec_detail_page">Detail Page</string>
+    <string name="tec_detail_contact_no">Contact Number</string>
+    <string name="tec_detail_location_address">Location</string>
+    <string name="tec_detail_landmark">Landmark</string>
+    <!--ends here-->
+
+
+    <!--The registration labels-->
+
+    <string name="tec_firstname">Firstname</string>
+    <string name="tec_lastname">Lastname</string>
+    <string name="tec_emailaddress">Email</string>
+    <string name="tec_phonenumber">Phone No.</string>
+    <string name="tec_address">Address</string>
+    <string name="tec_password">Password</string>
+    <string name="tec_confirm_password">Confirm Password</string>
+    <string name="signup_heading">Sign Up</string>
+    <string name="signup_submit">Submit</string>
+    <string name="pincode">Pincode</string>
+    <string name="title_activity_my_home">Home</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_different_section">DifferentSectionActivity</string>
+    <string name="title_activity_dashboard">Home</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--Ends here-->
+
+    <!--My profile-->
+
+
+
+
+    <!--ends here-->
+</resources>

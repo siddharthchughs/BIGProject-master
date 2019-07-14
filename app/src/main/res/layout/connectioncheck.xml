@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/white"
+    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No Internet"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/dimen_24sp"
+        android:gravity="center"
+        android:paddingTop="@dimen/dimen_15dp"
+        android:paddingRight="@dimen/dimen_5dp"
+        android:paddingLeft="@dimen/dimen_5dp"
+        android:paddingStart="@dimen/dimen_5dp"
+        android:layout_margin="@dimen/dimen_10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:text="You wiil be notified once your internet is back!"
+        android:textSize="@dimen/dimen_18sp"
+        android:paddingTop="@dimen/dimen_15dp"
+        android:paddingRight="@dimen/dimen_5dp"
+        android:paddingLeft="@dimen/dimen_5dp"
+        android:paddingStart="@dimen/dimen_5dp"
+        android:layout_margin="@dimen/dimen_10dp"
+
+        />
+
+</LinearLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeScreen.TransactionFragment">
+
+    <!--<androidx.cardview.widget.CardView-->
+        <!--android:id="@+id/cardView"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--app:cardCornerRadius="@dimen/dimen_5dp"-->
+        <!--app:cardElevation="@dimen/dimen_1dp"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="@id/layoutData">-->
+
+       <!-- <LinearLayout
+            android:id="@+id/layout_labels"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/tv_trans_Heading"
+                android:layout_width="@dimen/dimen_0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dimen_10dp"
+                android:layout_marginLeft="@dimen/dimen_10dp"
+                android:layout_weight="1"
+                android:padding="@dimen/dimen_10dp"
+                android:text="Good Morning"
+                android:textSize="@dimen/dimen_22sp"
+
+                />
+
+            <TextView
+                android:id="@+id/tv_date"
+                android:layout_width="@dimen/dimen_0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Siddharth Chugh"
+                android:textSize="@dimen/dimen_16sp"
+                />
+
+        </LinearLayout>-->
+<!--
+    </androidx.cardview.widget.CardView>
+-->
+
+    <FrameLayout
+        android:id="@+id/layoutData"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+>
+
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:text="No data Available"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:gravity="center"-->
+    <!--android:visibility="gone"-->
+    <!--/>-->
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerpaymenttask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen_5dp"
+
+        />
+
+
+    <!--<ProgressBar-->
+    <!--android:layout_width="42dp"-->
+    <!--android:layout_height="42dp"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:visibility="visible"-->
+    <!--app:layout_constraintTop_toBottomOf="@id/recyclerpaymenttask"-->
+    <!--app:layout_constraintStart_toStartOf="@id/recyclerpaymenttask"-->
+    <!--android:layout_marginVertical="@dimen/dimen_10dp"-->
+
+    <!--/>-->
+
+
+</FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
